@@ -4,22 +4,23 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
 import App from './views/App'
-import Play from './views/Play'
+import Hello from './views/Hello'
+import Home from './views/Home'
 
 const router = new VueRouter({
     mode: 'history',
     routes: [
         {
             path: '/',
-            name: 'App',
-            component: App,
+            name: 'home',
+            component: Home
         },
         {
-            path: '/play',
-            name: 'Play',
-            component: Play
-        }
-    ]
+            path: '/hello',
+            name: 'hello',
+            component: Hello,
+        },
+    ],
 });
 
 const app = new Vue({
