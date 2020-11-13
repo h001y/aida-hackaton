@@ -1,2 +1,2 @@
 # aida-hackaton
-Movie showcase + Youtube + Insta integration. For modix hackaton
+Frontend for movix hackaton
